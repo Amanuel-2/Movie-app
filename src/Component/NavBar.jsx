@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom"
 import React,{useState} from 'react'
 function NavBar(){
-    const [isopen,setIsopen]=useState(false)
+    const [isopen,setIsopen] = useState(false)
 return(
     <nav className="h-14 md:h-16 md:w-full px-4 bg-[#29292f] text-white flex justify-between items-center">
         <div>
